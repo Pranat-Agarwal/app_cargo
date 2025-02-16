@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">app_cargo</string>
+
+    <string name="carinfo">
+The price of Audi A4, a 5 seater Sedan, ranges from Rs. 46.02 - 54.58 Lakh. It is available in 3 variants, with an engine of 1984 cc and a choice of 1 transmission: Automatic. A4 has an NCAP rating of 5 stars and comes with 8 airbags. Audi A4 is available in 5 colours. Users have reported a mileage of 17.4 kmpl for A4.
+    </string>
+
+    // login page strings
+    <string name="forgetpassword">
+        <u>Forget Password ?</u>
+    </string>
+
+    <string name="newaccount">
+        <u>| | Create a new account | |</u>
+    </string>
+
+
+    <string name="des1">
+        Welcome to carGO. These Terms and Conditions ("Terms") govern your use of our shopping app. By accessing or using the App, you agree to be bound by these Terms. If you do not agree with these Terms, please do not use the App.
+    </string>
+
+    <string name="des2">
+        Registration: Users must provide accurate and complete information duringthe registration process.
+        Security: Users are responsible for maintaining the confidentiality of theiraccount information and password.
+        Age Requirement: Users must be at least 18 years old or have parentalconsent to use the app.
+    </string>
+
+    <string name="des3">
+        Product Descriptions: We strive to provide accurate descriptions of products.However, we do not warrant that the descriptions are error-free.
+        Pricing: Prices are subject to change without notice. We reserve the right to modify ordiscontinue products at any time.
+        Availability: All products are subject to availability, and we reserve the right to limitthe quantity of products we supply.
+    </string>
+
+    <string name="des4">
+        Order Acceptance: Your order constitutes an offer to purchase products. We reserve the right to accept or reject your order.
+        Payment: All payments must be made through the payment methods provided in the app.
+        Taxes: Users are responsible for any applicable taxes.
+    </string>
+
+    <string name="des7">
+        Prohibited Activities: Users may not use the app for unlawful activities, infringe upon intellectual property rights, or engage in activities that disrupt the app’s functionality.
+        User Content: Users are responsible for the content they upload or share on the app. We reserve the right to remove any content that violates these terms.
+    </string>
+
+    <string name="des8">
+        Ownership: All content on the app, including text, graphics, logos, and images, is the property of [Company Name] or its licensors.
+        License: Users are granted a limited, non-exclusive, non-transferable license to use the app for personal, non-commercial purposes.
+    </string>
+
+    <string name="des9">
+        Disclaimer: The app is provided on an "as is" and "as available" basis. We disclaim all warranties, express or implied.
+        Limitation: We will not be liable for any indirect, incidental, or consequential damages arising from the use of the app.
+    </string>
+
+    <string name="des10">
+        Data Collection: We collect and use personal information in accordance with our privacy policy, which is available on the app.
+        Cookies: The app may use cookies to enhance the user experience.
+    </string>
+
+    <string name="des11">
+        We reserve the right to modify these terms and conditions at any time. Changes will be effective immediately upon posting on the app.
+    </string>
+
+    <string name="des12">
+        These terms and conditions are governed by and construed in accordance with the laws of India.
+    </string>
+
+    <string name="about">
+        "Cargo is a user-friendly shopping app designed to provide a seamless and enjoyable shopping experience. Whether you're looking for the latest fashion trends, electronics, home goods, or daily essentials, [App Name] has everything you need in one convenient place.
+        Explore a vast selection of products across various categories including fashion, electronics, home and garden, beauty and health, sports, and more.
+        Navigate easily through a clean, intuitive interface. Find what you need quickly with our powerful search and filter options.
+        Get product recommendations tailored to your preferences based on your browsing and purchase history"
+    </string>
+</resources>

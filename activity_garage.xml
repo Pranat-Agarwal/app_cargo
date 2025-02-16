@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".garage">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buyed cars"
+        android:textColor="#C1C1C1"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/garage_rv"
+        android:layout_width="match_parent"
+        android:layout_height="438dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <View
+        android:id="@+id/menu_view_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#4444"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/logo_garage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/menu_view_bar"
+        app:layout_constraintEnd_toEndOf="@+id/menu_view_bar"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/menu_view_bar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_garage" />
+
+    <ImageView
+        android:id="@+id/logo_home"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/menu_view_bar"
+        app:layout_constraintEnd_toEndOf="@+id/menu_view_bar"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toEndOf="@+id/logo_garage"
+        app:layout_constraintTop_toTopOf="@+id/menu_view_bar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_home" />
+
+    <ImageView
+        android:id="@+id/logo_setting"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/menu_view_bar"
+        app:layout_constraintEnd_toEndOf="@+id/menu_view_bar"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toEndOf="@+id/logo_home"
+        app:layout_constraintTop_toTopOf="@+id/menu_view_bar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_setting" />
+</androidx.constraintlayout.widget.ConstraintLayout>
